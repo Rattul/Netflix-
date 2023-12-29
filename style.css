@@ -1,0 +1,107 @@
+*{
+padding: 0; 
+margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{ 
+  background-color: black;
+  }
+.main {
+background-image:url(bg.jpg);
+height: 644px;
+position: relative;
+background-position: center center;
+background-repeat:no-repeat;
+background-size: max(1200px,100vw);
+
+}
+.box{
+height: 644px;
+width: 100%;
+opacity: 0.44;
+background-color: black;
+position: absolute;
+top:0;
+}
+.nav{
+display: flex;
+align-items: center;
+max-width: 60vw;
+margin: auto;
+justify-content:space-between;
+height: 100px;
+}
+nav img{
+height: 100px;
+position:relative;
+z-index:10;
+}
+.button1{
+position:relative;
+z-index:10;
+}
+.hero{
+height:100%;
+display:flax;
+align-items:center;
+justify-content: center;
+flex-direction: column;
+color: white;
+position: relativ;
+gap: 24px;
+  padding: 0 30px;
+  
+}
+.s1{
+  font-weight:bolder;
+  font-size: 45px;
+  text-align: cetner;
+  }
+.s2{
+  font-weight:400;
+  font-size: 24px;
+  text-align: center;
+  }
+.s3{
+  font-weight:400;
+  font-size: 20px;
+  text-align: center;
+  }
+.btn{
+  padding: 3px 8px;
+  font-weight: 400;
+  border-radius: 5px;
+  color: white;
+  background-color:black;
+  border:1px solid white;
+  cursor: pointer;
+  }
+.btnred{
+  padding: 3px 24px;
+  font-weight: 400;
+  border-radius: 4px;
+  color: white;
+  background-color:red;
+  border:1px solid white;
+  cursor: pointer;
+  }
+.herobuttons{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap: 16px;
+  }
+.main input{
+  padding: 7px 101px 8px 14px;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #1c1c1c;
+  border: 1px solid #1c1c1c;
+  }
+.separation{
+  height: 2px;
+position: relative;
+  background-color: #c4bc00;
+  z-index: 20;
+  }
